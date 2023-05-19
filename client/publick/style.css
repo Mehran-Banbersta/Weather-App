@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* variable for CSS style color */
+:root {
+  --main-color: #ffffff;
+}
+/*  */
+body {
+  background-image: url("https://wallpapercave.com/dwp2x/wp2915550.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0 3rem;
+  color: var(--main-color);
+}
