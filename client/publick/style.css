@@ -16,3 +16,15 @@ body {
   padding: 0 3rem;
   color: var(--main-color);
 }
+
+/* location */
+.location-info {
+  text-align: center;
+}
+
+/* search-container */
+.search-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
