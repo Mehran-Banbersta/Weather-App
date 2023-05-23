@@ -25,7 +25,49 @@ This is a simple weather application that allows users to get weather informatio
 - HTML
 - CSS
 - JavaScript
-- [Weather Data API]()
+- Weather Data API
+
+
+## Directory Structure
+
+- `client`: This directory serves as the root of the client-side application.
+
+  - `public`: This directory contains static assets and the HTML file that serves as the entry point for the application.
+
+  - `src`: This directory contains the source code of the application.
+
+    - `api`: This directory contains modules related to API interactions.
+
+      - `api.js`: This module provides functions for making API requests.
+
+      - `fetchApi.js`: This module handles the fetching of data from the API.
+
+      - `updateWeatherDisplay.js`: This module updates the weather display based on the retrieved data.
+
+    - `pages`: This directory contains different page components of the application.
+
+      - `currentInfoPage.js`: This component displays the current weather information.
+
+      - `homePage.js`: This component serves as the home page of the application.
+
+      - `hourlyPages.js`: This component displays the weather forecast for the next few hours.
+
+      - `weeklyPages.js`: This component displays the weekly weather forecast.
+
+    - `views`: This directory contains view components used by the page components.
+
+      - `homeView.js`: This component represents the view for the home page.
+
+    - `app.js`: This file is the main entry point of the application, responsible for rendering the different pages.
+
+    - `constants.js`: This file contains constant values used throughout the application.
+
+    - `integration`: This directory contains integration-related modules.
+
+- `index.js`: This file is the entry point for the application and is responsible for rendering the root component.
+
+- `README.md`: This file contains documentation and information about the codebase.
+
 
 
 
